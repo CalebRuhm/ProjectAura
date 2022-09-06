@@ -1,5 +1,0 @@
-- task: Bash@3
-  inputs:
-    script: echo $MYSECRET
-  env: 
-    MYSECRET: $("Hello world")
